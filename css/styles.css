@@ -1,0 +1,78 @@
+body{
+    background: #f4f5f8;
+}
+
+.nav {
+    background: #fff;
+}
+.titulo {
+    text-align: left;
+    margin-top: 20px;
+    line-height: 20px;
+    color: #3fbc52;
+    font-size: 22px;
+    float: left;
+    margin-right: 20px;
+}
+
+.region {
+    color: #000;
+    line-height: 22px;
+    font-size: 22px;
+    margin: 19px;
+    display: block;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.busqueda {
+    width: 80%;
+    height: 40px;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 16px;
+    margin-top: 11px;
+    border: 1px solid rgba(116, 114, 114, 0.384);
+    border-radius: 3px;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.boton-busqueda {
+    background-color: #fff;
+}
+.icon {
+    width: 5%;
+    
+}
+.paginas_populares {
+    margin-left: 30px;
+    margin-top: 50px;
+    color: #000;
+    font-size: 28px;
+}
+
+.contenedor_lista{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lista_populares {
+    width: 10%;
+    list-style: none;
+    /* margin: 40px 10px 0 10px;
+    flex-direction: row; */
+    
+}
+
+.item_populares{
+    display: inline-block;   
+    padding: 30px;
+    background: #fff;
+    margin-left: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 7px 21px 54px -20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 21px 54px -20px rgba(0,0,0,0.75);
+    box-shadow: 7px 21px 54px -20px rgba(0,0,0,0.75);
+}
